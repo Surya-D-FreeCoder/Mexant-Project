@@ -1,0 +1,39 @@
+.header .navbar-brand {
+    font-size: 36px;
+}
+
+.menubar {
+    color: white;
+    text-decoration: none;
+}
+
+.menubar:hover {
+    color: orangered !important;
+}
+
+.menubar.active {
+    color: orangered !important;
+}
+
+.header-logo {
+    height: 70px;
+
+}
+
+.header {
+    background-color: #212741;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+@media(min-width:320px) and (max-width:480px) {
+    .header-logo {
+        height: 50px;
+        width: 225px;
+    }
+
+
+}

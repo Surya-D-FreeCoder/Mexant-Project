@@ -1,0 +1,378 @@
+
+/* Slider Part */
+
+.slider {
+    margin-top: 100px;
+}
+    /* Here I am going to shorten the width of the image */
+
+.slider img{
+    height: 100vh;
+    width: 100%;
+}
+
+.line {
+    height: 7px;
+    width: 100px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+
+}
+
+    /* Fonts Size and Placement of the slider */
+
+.slider .carousel-caption {
+    top: 20%;
+    right: 50%;
+    text-align: left !important;
+}
+
+.slider .carousel-caption h3 {
+    font-size: 54px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+span {
+    color: orangered;
+}
+
+.slider .carousel-caption p {
+    font-size: 18px;
+}
+
+    /* Buttons in the Slider */
+
+.slider .carousel-caption button {
+    margin: 5px;
+}
+
+
+/* This Targets the Lists (Grid) */
+
+.outer-box {
+    margin-top: 140px !important;
+}
+
+.inner-box {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+    /* For the icon in the card */
+
+.list-icon {
+    font-size: 54px;
+    text-align: center;
+    color: #43ba7f;
+    transition: all ease-in-out 0.5s;
+}
+
+.list-content h3 {
+    font-size: 32px !important;
+    /* font-weight: 700; */
+}
+
+.list-icon:hover {
+    color: #43ba7f;
+    transform: scale(1.2);
+    font-size: 60px;
+}
+
+
+/* Button Part below list*/
+.list-detail button {
+    margin: 5px;
+    margin-left: 50px;
+}
+
+.buttons {
+    margin-left: 100px;
+}
+
+.buttons button {
+    padding: 5px 50px;
+}
+
+.list-detail {
+    background-image: url('../../Assets/cta-bg.jpg');
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-detail h4 {
+    color: white;
+}
+
+/* About Page */
+
+.about-page {
+    margin-top: 120px !important;
+}
+
+.about-heading {
+    text-align: center;
+}
+
+.about-heading h1{
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.about-heading h4 {
+    color: orangered;
+    font-weight: 700;
+}
+
+.right-content h4 {
+    font-weight: 700;
+}
+
+.right-content p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.w-80 {
+    width: 95%;
+}
+
+    /* Table Card */
+
+.nav-tabs .nav-link {
+    color: black !important;
+    font-weight: 700 !important;
+    font-size: 17px;
+
+}
+
+.nav-tabs .nav-link.active {
+    color: orangered !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.custom-tabs .nav-tabs {
+    border: none !important;
+
+}
+
+.nav-justified .nav-item .nav-link {
+    width: 85% !important;
+}
+
+.custom-tabs .nav-link {
+    border: none !important;        
+    background: transparent;       
+    color: #333;                    
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-right: 40px !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.table-part {
+    text-align: justify;
+}
+
+
+
+/* Contact Form page */
+.contact-form {
+    background-image: url("../../Assets/calculator-bg.jpg");
+    height: 80vh;
+    position: relative;
+    margin-top: 100px;
+}
+
+.contact-image {
+    height: 580px;
+    position: absolute ;
+    bottom: 0px;
+}
+
+.contact-content {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contact-content h4 {
+    color: orangered;
+}
+
+.contact-content h2 {
+    color: white;
+}
+
+.form-label {
+    color: white ;
+}
+
+.form-control {
+    background-color: rgba(121, 134, 151, 0.7) !important;
+    border: none !important;
+    color: rgba(255, 255, 255, 0.838) !important;
+}
+
+
+.btn-primary {
+    background-color:orangered !important;
+    border: none !important;
+}
+
+
+/* Testimonial Page */
+
+.testimonial-page {
+    margin-top: 80px;
+}
+
+.test-content {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.test-content h5 {
+    color: orangered;
+    font-weight: 700;
+}
+
+.test-content h1 {
+    font-weight: 700;
+}
+
+    /* That slider part */
+
+.test-slider-inner {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: 100%;
+}
+
+.test-img {
+    height: 95%;
+    padding-top: 10px;
+    padding-left: 145px;
+}
+
+.slider-icon {
+    font-size: 62px;
+    color: white;
+    background-color: green;
+    width: 80px;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.test-slider-content p{
+    font-style: italic;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.test-slider-content h4 {
+    margin: 20px;
+    font-size: 24px;
+}
+
+.test-slider-content h6 {
+    margin: 20px;
+    font-size: 20px;
+    color: green;
+}
+
+    /* Company logo */
+
+.company-id {
+    margin-top: 100px;
+    background-color: #212741;
+}
+
+
+@media(min-width:320px) and (max-width:480px) {
+
+    .slider {
+        margin-top: 82px;
+    }
+
+    .slider img {
+        height: 250px;
+    }
+
+    .slider .carousel-caption {
+        top: 10%;
+        width: 100%;
+        left: 20px;
+    }
+    
+    .slider .carousel-caption h3 {
+        font-size: 24px;
+        padding-left: 40px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    
+    .slider .carousel-caption p {
+        display: none;
+    }
+
+    .slider-button {
+        display: none !important;
+    }
+
+    .buttons {
+        margin-left: 30px;
+    }
+
+    .below-button1 {
+        padding: 5px 37px !important;
+    }
+
+    .contact-image {
+        display: none;
+    }
+
+    .test-img {
+        padding: 0;
+    }
+    
+    .img-container{
+        text-align: center;
+    }
+
+    .test-slider-content p {
+        text-align: justify;
+    }
+
+    .company-id .row{
+        text-align: center;
+    } 
+
+    .table-part {
+        font-size: 12px;
+    }
+
+    .custom-tabs .nav-item:nth-child(3) .nav-link {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .w-80 {
+        width: 95% !important;
+    }
+
+    .contact-form {
+        margin-top: 50px;
+    }
+}
+
